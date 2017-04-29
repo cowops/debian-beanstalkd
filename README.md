@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: loranger.debian-beanstalkd, beanstalkd_listen_addr: "0.0.0.0", beanstalkd_listen_port: "11300", beanstalkd_start: "yes" }
+         - { role: cowops.debian-beanstalkd, beanstalkd_listen_addr: "0.0.0.0", beanstalkd_listen_port: "11300", beanstalkd_start: "yes" }
 
 Tasks
 -----
